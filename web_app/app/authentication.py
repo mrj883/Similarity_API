@@ -29,8 +29,8 @@ def checkExists(jreq) -> int :
             }]
         # Checking the password     
         if document:
-            return 200
+            return 303
         else:
-            return 303 
-        
+            return 200 
         return 
+    
